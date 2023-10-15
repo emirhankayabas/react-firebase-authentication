@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply outline-0;
+  }
+  html,
+  body,
+  #root {
+    @apply h-full;
+  }
+}
